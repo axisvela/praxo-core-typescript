@@ -1,0 +1,56 @@
+{
+  "name": "@axisvela/praxo-core",
+  "version": "0.2.2",
+  "description": "Embeddable TypeScript agent runtime with policy, human-in-the-loop approvals, checkpoints, and tool calling.",
+  "homepage": "https://axisvela.github.io/praxo-core/languages/typescript/",
+  "bugs": {
+    "url": "https://github.com/axisvela/praxo-core/issues"
+  },
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "agent-runtime",
+    "agent-framework",
+    "llm",
+    "tool-calling",
+    "tool-authorization",
+    "policy-enforcement",
+    "human-in-the-loop",
+    "checkpoint",
+    "embeddable"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axisvela/praxo-core.git",
+    "directory": "language/typescript"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "REGISTRY.md",
+    "llms.txt",
+    "llms.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\"",
+    "api": "node api-snapshot.js && node api-signatures.js",
+    "api:check": "node api-snapshot.js --check && node api-signatures.js --check",
+    "conformance": "node dist/conformance/run.js",
+    "test": "npm run build && npm run conformance && node --test tests/sdk.test.js tests/hitl.test.js tests/openaicompat.test.js tests/api-signatures.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0"
+  }
+}
