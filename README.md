@@ -8,6 +8,7 @@ human-in-the-loop approval, checkpoints, events, and tool calling.
 - Registry: npm
 - Install: `npm install @axisvela/praxo-core@0.5.0`
 - Documentation: https://axisvela.github.io/praxo-core/languages/typescript/
+- Examples: https://github.com/axisvela/praxo-core-typescript/tree/main/language/typescript/examples
 - Mirror repository: https://github.com/axisvela/praxo-core-typescript
 - Canonical source: https://github.com/axisvela/praxo-core/tree/main/language/typescript
 - Release index: https://axisvela.github.io/praxo-core/languages/registry-status/
