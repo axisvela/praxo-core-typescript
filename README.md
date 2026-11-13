@@ -4,9 +4,9 @@ Dedicated repository for the TypeScript implementation of PRAXO-CORE: an
 embeddable, MIT-licensed agent execution kernel with policy controls,
 human-in-the-loop approval, checkpoints, events, and tool calling.
 
-- Package: `@axisvela/praxo-core` (`0.4.1`)
+- Package: `@axisvela/praxo-core` (`0.5.0`)
 - Registry: npm
-- Install: `npm install @axisvela/praxo-core@0.4.1`
+- Install: `npm install @axisvela/praxo-core@0.5.0`
 - Documentation: https://axisvela.github.io/praxo-core/languages/typescript/
 - Mirror repository: https://github.com/axisvela/praxo-core-typescript
 - Canonical source: https://github.com/axisvela/praxo-core/tree/main/language/typescript
