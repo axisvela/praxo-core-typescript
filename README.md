@@ -87,7 +87,7 @@ Runnable examples live under [`language/typescript/examples`](language/typescrip
 | [mcp](language/typescript/examples/mcp) | This example uses published npm `@axisvela/praxo-core@0.5.0` to connect to a minimal stdio MCP server, list tools, register them in a Core registry, and call one tool. |
 | [provider-fallback](language/typescript/examples/provider-fallback) | This example uses published npm `@axisvela/praxo-core@0.5.0` to fall back to a second model when the primary model call fails. |
 | [retry](language/typescript/examples/retry) | This example uses published npm `@axisvela/praxo-core@0.5.0` to retry transient model failures without changing the agent loop. |
-| [service](language/typescript/examples/service) | This example embeds published npm `@axisvela/praxo-core@0.5.0` in a Node standard-library HTTP service. The application supplies a principal and tenant, restricts tools, and ret... |
+| [service](language/typescript/examples/service) | This example embeds published npm `@axisvela/praxo-core@0.6.0` in a Node standard-library HTTP service. The application supplies a principal and tenant, restricts tools, and ret... |
 | [session-checkpoint](language/typescript/examples/session-checkpoint) | This example saves and restores a conversation history across two agent turns. It uses the Core allowlist for payload encoding and a teaching in-memory store. |
 | [streaming](language/typescript/examples/streaming) | This example uses published npm `@axisvela/praxo-core@0.5.0` to consume deltas while the agent loop keeps running normally. |
 | [structured-output](language/typescript/examples/structured-output) | This example uses published npm `@axisvela/praxo-core@0.5.0` to turn free text into validated JSON with `StructuredOutput`. |
