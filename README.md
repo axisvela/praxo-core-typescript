@@ -79,7 +79,7 @@ Runnable examples live under [`language/typescript/examples`](language/typescrip
 | Example | What it shows |
 | --- | --- |
 | [checkpoint](language/typescript/examples/checkpoint) | This example uses published npm `@axisvela/praxo-core@0.5.0` to keep checkpoint storage application-owned while using the SDK allowlist for payload encoding. |
-| [consumer](language/typescript/examples/consumer) | This starter installs the published `@axisvela/praxo-core@0.3.0` package from npm in a separate application. It does not import the repository's TypeScript source. Node.js 20 or... |
+| [consumer](language/typescript/examples/consumer) | This starter installs the published `@axisvela/praxo-core@0.6.0` package from npm in a separate application. It does not import the repository's TypeScript source. Node.js 20 or... |
 | [event-sink](language/typescript/examples/event-sink) | This example uses published npm `@axisvela/praxo-core@0.5.0` to observe agent lifecycle and tool events without coupling the agent to a logging or telemetry backend. |
 | [identity-policy](language/typescript/examples/identity-policy) | This example uses published npm `@axisvela/praxo-core@0.5.0` to bind a trusted principal to Core policy authorization. The application owns authentication and principal storage;... |
 | [live-model](language/typescript/examples/live-model) |  |
