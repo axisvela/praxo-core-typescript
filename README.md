@@ -78,6 +78,7 @@ Runnable examples live under [`language/typescript/examples`](language/typescrip
 
 | Example | What it shows |
 | --- | --- |
+| [advanced-delegation](language/typescript/examples/advanced-delegation) | This example shows an application-level parent/child agent pattern. The parent agent may call a `delegate` tool but not the child's `record` tool. The delegate tool runs a child... |
 | [checkpoint](language/typescript/examples/checkpoint) | This example uses published npm `@axisvela/praxo-core@0.8.0` to keep checkpoint storage application-owned while using the SDK allowlist for payload encoding. |
 | [consumer](language/typescript/examples/consumer) | This starter installs the published `@axisvela/praxo-core@0.8.0` package from npm in a separate application. It does not import the repository's TypeScript source. Node.js 20 or... |
 | [event-sink](language/typescript/examples/event-sink) | This example uses published npm `@axisvela/praxo-core@0.8.0` to observe agent lifecycle and tool events without coupling the agent to a logging or telemetry backend. |
@@ -88,7 +89,7 @@ Runnable examples live under [`language/typescript/examples`](language/typescrip
 | [provider-fallback](language/typescript/examples/provider-fallback) | This example uses published npm `@axisvela/praxo-core@0.8.0` to fall back to a second model when the primary model call fails. |
 | [retry](language/typescript/examples/retry) | This example uses published npm `@axisvela/praxo-core@0.8.0` to retry transient model failures without changing the agent loop. |
 | [service](language/typescript/examples/service) | This example embeds published npm `@axisvela/praxo-core@0.8.0` in a Node standard-library HTTP service. The application supplies a principal and tenant, restricts tools, and ret... |
-| [service-auth](language/typescript/examples/service-auth) | This example embeds published npm `@axisvela/praxo-core@0.8.0` in a Node standard-library HTTP service with application-owned identity (local HMAC or OIDC), tenant policy, an op... |
+| [service-auth](language/typescript/examples/service-auth) | This example embeds published npm `@axisvela/praxo-core@0.8.0` in a Node standard-library HTTP service with application-owned identity (local HMAC, OIDC/JWT, or token introspect... |
 | [session-checkpoint](language/typescript/examples/session-checkpoint) | This example saves and restores a conversation history across two agent turns. It uses the Core allowlist for payload encoding and a teaching in-memory store. |
 | [streaming](language/typescript/examples/streaming) | This example uses published npm `@axisvela/praxo-core@0.8.0` to consume deltas while the agent loop keeps running normally. |
 | [structured-output](language/typescript/examples/structured-output) | This example uses published npm `@axisvela/praxo-core@0.8.0` to turn free text into validated JSON with `StructuredOutput`. |
