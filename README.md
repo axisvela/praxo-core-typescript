@@ -9,9 +9,9 @@ PRAXO-CORE is a dependency-free TypeScript framework for building tool-using AI 
 | Package | `@axisvela/praxo-core` |
 | Registry | [npm](https://www.npmjs.com/package/@axisvela/praxo-core/v/0.8.1) |
 | Install | `npm install @axisvela/praxo-core@0.8.1` |
-| Source version | `0.8.1` |
+| Source version | `0.9.0` |
 | Published version | `0.8.1` |
-| Source tag | `typescript/v0.8.1` |
+| Source tag | `typescript/v0.9.0` |
 | Tier | Core |
 | Contract | `SPEC_VERSION` `0.2.0` |
 | Documentation | https://axisvela.github.io/praxo-core/languages/typescript/ |
@@ -64,9 +64,8 @@ See the [full TypeScript README](language/typescript/README.md) for complete ins
 | Capability | Status | Detail |
 | --- | --- | --- |
 | OpenAI-compatible model | native | `src/adapters/openaicompat.ts` |
-| Anthropic model | native | `src/adapters/anthropic.ts` |
-| Gemini model | native | `src/adapters/gemini.ts`; Gemini SSE streaming |
-| Process plugin host | native | `ProcessHost`; JSON-Lines stdio, token auth, health, timeout, cancel |
+| Anthropic model | native | `src/adapters/anthropic.ts`; SSE streaming reassembly |
+| Gemini model | native | `src/adapters/gemini.ts`; SSE streaming |
 | MCP client | native | `src/adapters/mcp.ts`; stdio, plus `src/adapters/mcp-http.ts` for Streamable HTTP 2025-03-26 |
 | Harmovela sink | native | `src/adapters/harmovela.ts` |
 | OpenTelemetry sink | native (transport seam) | `src/adapters/otel.ts`; caller supplies OTLP/HTTP transport |
