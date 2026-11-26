@@ -95,15 +95,9 @@ Runnable examples live under [`language/typescript/examples`](language/typescrip
 | [streaming](language/typescript/examples/streaming) | This example uses published npm `@axisvela/praxo-core@0.9.0` to consume deltas while the agent loop keeps running normally. |
 | [structured-output](language/typescript/examples/structured-output) | This example uses published npm `@axisvela/praxo-core@0.9.0` to turn free text into validated JSON with `StructuredOutput`. |
 
-## Tutorials and Candidate Scenarios
-
-Start with the [Tutorial Plan](https://axisvela.github.io/praxo-core/getting-started/tutorial-plan/) for delivery standards and the [reference application portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio), review the [100 candidate agent scenarios](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), and browse the [unified Tutorial Catalog](https://axisvela.github.io/praxo-core/getting-started/tutorial-catalog/).
-
-Chinese: [教程计划](https://axisvela.github.io/praxo-core/zh-CN/getting-started/tutorial-plan/), [候选场景](https://axisvela.github.io/praxo-core/zh-CN/getting-started/agent-scenarios/), [教程目录](https://axisvela.github.io/praxo-core/zh-CN/getting-started/tutorial-catalog/).
-
 ## Scenario Tutorials
 
-Scenario-oriented tutorials live under `language/typescript/Tutorial`.
+Scenario-oriented tutorials live under `language/typescript/Tutorial`. Planning context: [Tutorial Plan](https://axisvela.github.io/praxo-core/getting-started/tutorial-plan/), [100 candidate agent scenarios](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), and [Tutorial Catalog](https://axisvela.github.io/praxo-core/getting-started/tutorial-catalog/).
 
 | Path | What it shows |
 | --- | --- |
@@ -123,6 +117,8 @@ Scenario-oriented tutorials live under `language/typescript/Tutorial`.
 | [storyboard-previs](language/typescript/Tutorial/storyboard-previs) | Turns a fixed script scene into a review-only shot plan. No rendering or virtual-production engine. |
 | [travel-booking](language/typescript/Tutorial/travel-booking) | A native TypeScript Core tutorial for review-only flight booking. It checks fixed `trip-100` inventory and drafts a fare hold with no payment or booking write. The model package... |
 | [workspace-plan](language/typescript/Tutorial/workspace-plan) | A bounded first slice of [SE-01](https://axisvela.github.io/praxo-core/getting-started/agent-scenarios/), not a code-generation or deployment product. It reads a fixed allowlist... |
+
+No accepted end-to-end reference application is recorded for this language yet. Candidate goals are tracked in the [Reference Application Portfolio](https://axisvela.github.io/praxo-core/project/roadmap/#reference-application-portfolio).
 
 ## Verify
 
